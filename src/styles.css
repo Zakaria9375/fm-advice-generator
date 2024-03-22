@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-extrabold bg-dark;
+  }
+  h2 {
+    @apply text-[11px] tracking-[3.457px] leading-[15px] text-neon md:text-[13px] md:leading-[18px] md:tracking-[4.086px];
+  }
+  h1 {
+    @apply text-[24px] tracking-[-0.257px] leading-[33px] text-cyan md:text-[28px] md:tracking-[-0.3px] md:leading-[38px]
+  }
+}
+
+@layer components {
+  .zflex {
+    @apply flex items-center justify-center;
+  }
+}
+

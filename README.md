@@ -34,4 +34,4 @@ ng serve
 ## Links
 
 * [Challenge](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)  
-* [Live](https://zadvice-generator.netlify.app/)
+* [Live](https://65fcdfd864b8ada13efbe4c4--prismatic-lily-e4b53c.netlify.app/)
